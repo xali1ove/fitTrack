@@ -14,7 +14,6 @@ const (
 )
 
 // Training общая структура для всех тренировок
-// Training общая структура для всех тренировок
 type Training struct {
 	TrainingType string        // тип тренировки
 	Action       int           // количество шагов/гребков
@@ -133,7 +132,6 @@ const (
 	SwimmingCaloriesWeightMultiplier = 2    // множитель веса пользователя
 )
 
-// Swimming структура, описывающая тренировку Плавание
 // Swimming структура, описывающая тренировку Плавание
 type Swimming struct {
 	Training
